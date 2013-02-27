@@ -1,0 +1,278 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		A77FB77816142D72000D4081 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = A77FB77616142D72000D4081 /* InfoPlist.strings */; };
+		A77FB78216142D8C000D4081 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = A77FB77F16142D8C000D4081 /* main.m */; };
+		A77FB78316142D8C000D4081 /* PathFinderServiceProvider.m in Sources */ = {isa = PBXBuildFile; fileRef = A77FB78116142D8C000D4081 /* PathFinderServiceProvider.m */; };
+		A7D28E10162BF8EA00FBF6A7 /* CoreFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A7D28E0F162BF8EA00FBF6A7 /* CoreFoundation.framework */; };
+		A7D28E13162BFA1D00FBF6A7 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A7D28E12162BFA1D00FBF6A7 /* Cocoa.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		A77FB76A16142D72000D4081 /* pathfinder.service */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = pathfinder.service; sourceTree = BUILT_PRODUCTS_DIR; };
+		A77FB77016142D72000D4081 /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = System/Library/Frameworks/AppKit.framework; sourceTree = SDKROOT; };
+		A77FB77116142D72000D4081 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		A77FB77216142D72000D4081 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		A77FB77516142D72000D4081 /* pathfinder-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "pathfinder-Info.plist"; sourceTree = "<group>"; };
+		A77FB77716142D72000D4081 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		A77FB77916142D72000D4081 /* pathfinder-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "pathfinder-Prefix.pch"; sourceTree = "<group>"; };
+		A77FB77F16142D8C000D4081 /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		A77FB78016142D8C000D4081 /* PathFinderServiceProvider.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PathFinderServiceProvider.h; sourceTree = "<group>"; };
+		A77FB78116142D8C000D4081 /* PathFinderServiceProvider.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PathFinderServiceProvider.m; sourceTree = "<group>"; };
+		A7D28E0F162BF8EA00FBF6A7 /* CoreFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreFoundation.framework; path = System/Library/Frameworks/CoreFoundation.framework; sourceTree = SDKROOT; };
+		A7D28E12162BFA1D00FBF6A7 /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A77FB76716142D72000D4081 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A7D28E13162BFA1D00FBF6A7 /* Cocoa.framework in Frameworks */,
+				A7D28E10162BF8EA00FBF6A7 /* CoreFoundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		A77FB75F16142D72000D4081 = {
+			isa = PBXGroup;
+			children = (
+				A77FB77316142D72000D4081 /* pathfinder */,
+				A77FB76C16142D72000D4081 /* Frameworks */,
+				A77FB76B16142D72000D4081 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		A77FB76B16142D72000D4081 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A77FB76A16142D72000D4081 /* pathfinder.service */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A77FB76C16142D72000D4081 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				A7D28E12162BFA1D00FBF6A7 /* Cocoa.framework */,
+				A7D28E0F162BF8EA00FBF6A7 /* CoreFoundation.framework */,
+				A77FB76F16142D72000D4081 /* Other Frameworks */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		A77FB76F16142D72000D4081 /* Other Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				A77FB77016142D72000D4081 /* AppKit.framework */,
+				A77FB77116142D72000D4081 /* CoreData.framework */,
+				A77FB77216142D72000D4081 /* Foundation.framework */,
+			);
+			name = "Other Frameworks";
+			sourceTree = "<group>";
+		};
+		A77FB77316142D72000D4081 /* pathfinder */ = {
+			isa = PBXGroup;
+			children = (
+				A77FB77F16142D8C000D4081 /* main.m */,
+				A77FB78016142D8C000D4081 /* PathFinderServiceProvider.h */,
+				A77FB78116142D8C000D4081 /* PathFinderServiceProvider.m */,
+				A77FB77416142D72000D4081 /* Supporting Files */,
+			);
+			path = pathfinder;
+			sourceTree = "<group>";
+		};
+		A77FB77416142D72000D4081 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				A77FB77516142D72000D4081 /* pathfinder-Info.plist */,
+				A77FB77616142D72000D4081 /* InfoPlist.strings */,
+				A77FB77916142D72000D4081 /* pathfinder-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		A77FB76916142D72000D4081 /* pathfinder */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A77FB77C16142D72000D4081 /* Build configuration list for PBXNativeTarget "pathfinder" */;
+			buildPhases = (
+				A77FB76616142D72000D4081 /* Sources */,
+				A77FB76716142D72000D4081 /* Frameworks */,
+				A77FB76816142D72000D4081 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = pathfinder;
+			productName = pathfinder;
+			productReference = A77FB76A16142D72000D4081 /* pathfinder.service */;
+			productType = "com.apple.product-type.bundle";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A77FB76116142D72000D4081 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0430;
+			};
+			buildConfigurationList = A77FB76416142D72000D4081 /* Build configuration list for PBXProject "pathfinder" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = A77FB75F16142D72000D4081;
+			productRefGroup = A77FB76B16142D72000D4081 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A77FB76916142D72000D4081 /* pathfinder */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A77FB76816142D72000D4081 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A77FB77816142D72000D4081 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A77FB76616142D72000D4081 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A77FB78216142D8C000D4081 /* main.m in Sources */,
+				A77FB78316142D8C000D4081 /* PathFinderServiceProvider.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		A77FB77616142D72000D4081 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A77FB77716142D72000D4081 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		A77FB77A16142D72000D4081 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.7;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		A77FB77B16142D72000D4081 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.7;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		A77FB77D16142D72000D4081 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "pathfinder/pathfinder-Prefix.pch";
+				INFOPLIST_FILE = "pathfinder/pathfinder-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Bundles";
+				MACH_O_TYPE = mh_execute;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = service;
+			};
+			name = Debug;
+		};
+		A77FB77E16142D72000D4081 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "pathfinder/pathfinder-Prefix.pch";
+				INFOPLIST_FILE = "pathfinder/pathfinder-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Bundles";
+				MACH_O_TYPE = mh_execute;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = service;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A77FB76416142D72000D4081 /* Build configuration list for PBXProject "pathfinder" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A77FB77A16142D72000D4081 /* Debug */,
+				A77FB77B16142D72000D4081 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A77FB77C16142D72000D4081 /* Build configuration list for PBXNativeTarget "pathfinder" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A77FB77D16142D72000D4081 /* Debug */,
+				A77FB77E16142D72000D4081 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = A77FB76116142D72000D4081 /* Project object */;
+}
